@@ -1,0 +1,31 @@
+{
+  "name": "api-rest-justify-text",
+  "version": "1.0.0",
+  "description": "Serveur HTTP pour l'API-REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laetitiaphimmasane/api-rest-justify-text.git"
+  },
+  "keywords": [
+    "api",
+    "server",
+    "http",
+    "token",
+    "authentification",
+    "rest",
+    "js"
+  ],
+  "author": "laetitia phimmasane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laetitiaphimmasane/api-rest-justify-text/issues"
+  },
+  "homepage": "https://github.com/laetitiaphimmasane/api-rest-justify-text#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
