@@ -54,16 +54,6 @@ function justify(){
 };
 
 
-//fonction pour le token 
-function jwt() {
-    const { secret } = config;
-    return expressJwt({ secret, algorithms: ['HS256'] }).unless({
-        path: [
-            '/api/token'
-        ]
-    });
-}
-
 app.listen(8080, () => {
     console.log('Le serveur est sur écoute.')
 });
